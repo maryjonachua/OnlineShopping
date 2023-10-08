@@ -10,7 +10,7 @@ import image3 from "/womens_fashion.jpg";
 const CarouselComponent = ({}) => {
   return (
     <>
-    <div  style={{ height: "100vh",alignItems:'center' }}>
+    <div  style={{ height: "50vh",alignItems:'center' }}>
       <Carousel
         autoPlay={true}
         showThumbs={false}
@@ -19,13 +19,13 @@ const CarouselComponent = ({}) => {
         interval={2000}
       >
         <div >
-          <img style={{ height: "70%" }} src={image1} loading="priority" />
+          <img src={image1} loading="priority" />
         </div>
         <div>
-          <img style={{ height: "70%" }} src={image2} loading="priority" />
+          <img  src={image2} loading="priority" />
         </div>
         <div>
-          <img style={{ height: "50%" }} src={image3} loading="priority" />
+          <img  src={image3} loading="priority" />
         </div>
       </Carousel>
       </div>
