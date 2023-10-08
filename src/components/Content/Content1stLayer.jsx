@@ -3,7 +3,7 @@ import React from 'react'
 
 const Content1stLayer = () => {
   return (
-    <div className="m-auto flex justify-center items-center text-center bg-[#F5F5F3]" >
+    <div className="m-auto flex justify-center items-center text-center" >
       <br/>
       <br/>
       <br/>
