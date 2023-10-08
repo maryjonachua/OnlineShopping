@@ -41,18 +41,18 @@ function App() {
     <>
     
 
-      <Router>
+      <Router basename="/OnlineShopping/">
        
         <Provider store={store}>
           
         <NavBar products={products} setLogin={setLogin} login={login} /> 
           <Routes>
+          <Route path="/" element={<LoginPage setLogin={setLogin}  />} />
+            <Route path="/signup" element={<SignUpPage/>} />
+            <Route path="/forgotPassword" element={<ForgotPassPage/>} />
             <Route path="/home" element={<Home products={products} />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/orders" element={<Orders />} />
-            <Route path="/" element={<LoginPage setLogin={setLogin}  />} />
-            <Route path="/signup" element={<SignUpPage/>} />
-            <Route path="/forgotPassword" element={<ForgotPassPage/>} />
           </Routes>
           <Footer/>
         </Provider>
