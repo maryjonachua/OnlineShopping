@@ -24,9 +24,9 @@ const CarouselComponent = ({}) => {
         <div>
           <img  src={image2} loading="priority" />
         </div>
-        <div>
+        {/* <div>
           <img  src={image3} loading="priority" />
-        </div>
+        </div> */}
       </Carousel>
       </div>
     </>
