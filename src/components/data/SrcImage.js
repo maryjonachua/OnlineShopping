@@ -1,12 +1,12 @@
 const imageData = 
     [{
-        image:'/bannerImgOne.webp'
+        image:require('./bannerImgOne.webp').default
     },
     {
-        image:'/bannerImgTwo.webp'
+        image:require('./bannerImgTwo.webp').default
     },
     {
-        image:'/womens_fashion.jpg'
+        image:require('./womens_fashion.jpg').default
     },
     
 
