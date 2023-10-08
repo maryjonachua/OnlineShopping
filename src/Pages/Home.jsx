@@ -19,7 +19,7 @@ const Home = ({products,selectedProduct,setSelectedProduct}) => {
 
       <ProductModal products={products} />
       <CarouselComponent products={products}/>
-     
+    
       <Content products={products}/>
 
      
