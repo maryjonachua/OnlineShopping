@@ -10,7 +10,7 @@ import image3 from "/womens_fashion.jpg";
 const CarouselComponent = ({}) => {
   return (
     <>
-    <div >
+    <div style={{height:'200px'}} >
       <Carousel
         autoPlay={true}
         showThumbs={false}
@@ -18,7 +18,7 @@ const CarouselComponent = ({}) => {
         startIndex={0}
         interval={2000}
       >
-        <div style={{height:'200px'}}>
+        <div >
           <img src={image1} loading="priority" />
         </div>
         <div>
