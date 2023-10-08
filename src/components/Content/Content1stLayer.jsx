@@ -4,6 +4,9 @@ import React from 'react'
 const Content1stLayer = () => {
   return (
     <div className="m-auto flex justify-center items-center text-center bg-[#F5F5F3]" >
+      <br/>
+      <br/>
+      <br/>
         <Typography className="md:mx-10 font-semibold text-2xl md:text-3xl lg:text-4xl"
           variant="h6"
           sx={{ margin: "50px", fontFamily: "Poppins", fontWeight: "600" }}

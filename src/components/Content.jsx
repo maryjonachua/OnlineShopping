@@ -10,9 +10,7 @@ const Content = ({ products }) => {
 console.log(products);
   return (
     <>
-    <br/>
-    <br/>
-    <br/>
+    
       <Content1stLayer/>
       <div className="product-container p-10 group">
         
