@@ -1,0 +1,77 @@
+.AddToCartBtn-Container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.addToCart{
+    border:none;
+    padding: 5px;
+    border-radius: 5px;
+    width: 190px;
+    text-align: center;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.5);
+ 
+
+}
+
+.addToCart:hover{
+    background-color:  #f6c123;
+    cursor: pointer;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+
+}
+
+/* -------------------------------------------------- */
+/* Buy Now Btn css */
+
+.BuyNowBtn-Container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.BuyNow{
+    
+    background-color: #f8e6b0;; 
+    color:#030303; ;
+    border: 1.5px solid  #FFC000;
+    padding: 5px;
+    border-radius: 5px;
+    width: 190px;
+    text-align: center;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  
+}
+
+.BuyNow:hover{
+    background-color:  rgb(255, 228, 195);
+    cursor: pointer;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+
+}
+/* remove button */
+.removeBtn{
+    border:none;
+    padding: 5px;
+    border-radius: 5px;
+    width: 190px;
+    text-align: center;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.2);
+    background-color: #f62323;
+    color: white;
+}
+
+.removeBtn:hover{
+    background-color:  #ff0000;
+    cursor: pointer;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+
+}

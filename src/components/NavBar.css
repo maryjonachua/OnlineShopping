@@ -1,0 +1,70 @@
+nav{
+  
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 15px;
+    box-shadow: "0px 4px 8px rgba(0, 0, 0, 0.1)",
+  }
+
+img{
+   
+    height: 15vh;
+}
+
+.cart-container{
+    position: relative;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+span{
+    position: absolute;
+    left: 14px;
+    right: 14px;
+    bottom: 20px;
+  
+    width: 14px;
+    height: 14px;
+    border-radius:8px;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 1px;
+}
+
+.search-bar-container{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    width: 65%;
+   
+}
+
+input{
+   
+    outline: none;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+    flex: 1;
+    border-radius: 5px;
+    height: 20px;
+    border: 1px solid #293b52;
+    box-shadow: "0px 4px 8px rgba(0, 0, 0, 0.1)",
+
+   
+}
+
+.NavText{
+    font-size: 13px;
+
+    cursor: pointer;
+    font-family: 'Poppins';
+    
+}
+.menus{
+    background-color: #293b52;
+    padding: 5px;
+}

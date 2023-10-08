@@ -1,0 +1,13 @@
+.itemCard{
+    background-color: white;
+    width: 220px;
+    height:280px;
+   
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #9398a1;
+    gap: 15px;
+    
+    
+}
+

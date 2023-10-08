@@ -1,0 +1,41 @@
+.orders-container{
+    padding: 20px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.order-container{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #9398a1;
+    margin-bottom: 8px;
+    margin-top: 10px;
+    border-radius: 10px;
+   
+}
+.desc{
+    margin-left: 12px;
+}
+.btn-container button{
+    width: 100%;
+    margin: 5px;
+   border: none;
+   border-radius: 5px;
+   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.1);
+   padding: 5px;
+   cursor: pointer;
+   font-size: 10px;
+   color: white;
+}
+
+button:hover{
+ background-color: #474747;
+}
+
