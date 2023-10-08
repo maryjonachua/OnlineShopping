@@ -10,8 +10,10 @@ const Content = ({ products }) => {
 console.log(products);
   return (
     <>
-{/*     
-      <Content1stLayer/> */}
+    <br/>
+    <br/>
+    <br/>
+      <Content1stLayer/>
       <div className="product-container p-10 group">
         
         {products.map((item,index)=>(
