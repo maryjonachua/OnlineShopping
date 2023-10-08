@@ -7,6 +7,7 @@ const Content1stLayer = () => {
       <br/>
       <br/>
       <br/>
+      <br/>
         <Typography className="md:mx-10 font-semibold text-2xl md:text-3xl lg:text-4xl"
           variant="h6"
           sx={{ margin: "50px", fontFamily: "Poppins", fontWeight: "600" }}
