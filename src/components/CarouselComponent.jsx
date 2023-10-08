@@ -18,7 +18,7 @@ const CarouselComponent = ({}) => {
         startIndex={0}
         interval={2000}
       >
-        <div >
+        <div style={{height:'200px'}}>
           <img src={image1} loading="priority" />
         </div>
         <div>
