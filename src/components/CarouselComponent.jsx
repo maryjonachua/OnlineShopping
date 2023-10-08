@@ -25,7 +25,7 @@ const CarouselComponent = ({}) => {
           <img style={{ height: "70%" }} src={image2} loading="priority" />
         </div>
         <div>
-          <img style={{ height: "70%" }} src={image3} loading="priority" />
+          <img style={{ height: "50%" }} src={image3} loading="priority" />
         </div>
       </Carousel>
       </div>
