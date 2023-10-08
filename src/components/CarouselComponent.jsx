@@ -10,7 +10,7 @@ import image3 from "/womens_fashion.jpg";
 const CarouselComponent = ({}) => {
   return (
     <>
-    <div  style={{ height: "100vh" }}>
+    <div  style={{ height: "100vh",alignItems:'center' }}>
       <Carousel
         autoPlay={true}
         showThumbs={false}
