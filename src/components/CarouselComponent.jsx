@@ -19,13 +19,13 @@ const CarouselComponent = ({}) => {
         interval={2000}
       >
         <div >
-          <img style={{ height: "90%" }} src={image1} loading="priority" />
+          <img style={{ height: "70%" }} src={image1} loading="priority" />
         </div>
         <div>
-          <img style={{ height: "90%" }} src={image2} loading="priority" />
+          <img style={{ height: "70%" }} src={image2} loading="priority" />
         </div>
         <div>
-          <img style={{ height: "90%" }} src={image3} loading="priority" />
+          <img style={{ height: "70%" }} src={image3} loading="priority" />
         </div>
       </Carousel>
       </div>
