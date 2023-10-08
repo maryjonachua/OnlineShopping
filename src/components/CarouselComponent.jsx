@@ -14,7 +14,7 @@ const CarouselComponent = ({}) => {
 
 
 <div key={index} style={{height:'90vh'}}>
-<img style={{height:'90%'}} src={d.image} loading='priority' />
+<img style={{height:'90%'}} src={require(d.image)} loading='priority' />
          
 </div>
 
